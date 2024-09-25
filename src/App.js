@@ -18,6 +18,7 @@ function App() {
   const basename = process.env.NODE_ENV === 'production' ? '/portfolio' : '/';
 
   return (
+   <>
     <div className="App">
       <Router basename={basename}>
       <Routes>
@@ -35,6 +36,7 @@ function App() {
        </Routes>
 </Router>
     </div>
+   </>
   );
 }
 
