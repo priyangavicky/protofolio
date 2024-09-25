@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li {
+    @apply px-2;
+}
+.bg-skill {
+    background: linear-gradient(#76A2EE, #4883E9);
+  }
+
+.bg-primary {
+    background: #A28089;
+}
+.bg-third{
+    background: #51E2F5;
+}
+
+.bg-secondary {
+    background: #a0d2eb;
+}
+
+.mobile-nav {
+    @apply fixed top-10 left-0 bg-gray-800 w-full h-1/4  ;
+}
+
+.mobile-nav li {
+    @apply w-full h-full text-center border-b-2 ;
+}
+
+.project-desc {
+    @apply absolute left-0 right-0 bottom-0 top-0 bg-secondary opacity-0 duration-500 hover:opacity-100;
+}
+
+.btn {
+    @apply bg-primary px-5 py-2 font-bold hover:border-2 border-white rounded;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.transparent-bg {
+  background-color: transparent; /* Ensures the background is transparent */
+}
+.styles_milestone__Qzjm7 h1 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    color: #0D43A0;
+  }
+  .styles_milestone__Qzjm7 {
+    margin-bottom: 1rem !important;
+    width: 100%;
+    border-radius: 0.75rem;
+    background-color: var(--fold-bg);
+    padding: 1.5rem;
+    font-family: Rubik, sans-serif;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: #606060;
+    --tw-drop-shadow: drop-shadow(0 4px 3px rgba(0, 0, 0, .07)) drop-shadow(0 2px 2px rgba(0, 0, 0, .06));
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  }
+  .styles_milestone__Qzjm7 h2 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    line-height: 1.5rem;
+    color: #0D43A0;
+  }
+  
