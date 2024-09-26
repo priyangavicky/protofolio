@@ -15,7 +15,7 @@ import Todo from './components/todooverview';
 
 
 function App() {
-  const basename = process.env.NODE_ENV === 'production' ? '/portfolio' : '/';
+  const basename = process.env.NODE_ENV === 'production' ? '/' : '/';
 
   return (
    <>
